@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 //     return 'Hi, this is your awesome package! map';
 // });
 
-Route::get('Map/test', 'EdgeWizz\Map\Controllers\MapController@test')->name('test');
+// Route::get('Map/test', 'EdgeWizz\Map\Controllers\MapController@test')->name('test');
 
 Route::post('fmt/Map/store', 'EdgeWizz\Map\Controllers\MapController@store')->name('fmt.map.store');
 
